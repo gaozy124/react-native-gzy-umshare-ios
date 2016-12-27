@@ -1,0 +1,79 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "react-native-gzy-umshare@^1.0.0",
+        "scope": null,
+        "escapedName": "react-native-gzy-umshare",
+        "name": "react-native-gzy-umshare",
+        "rawSpec": "^1.0.0",
+        "spec": ">=1.0.0 <2.0.0",
+        "type": "range"
+      },
+      "/Users/aykj/Desktop/React-Native/MyPackageTest"
+    ]
+  ],
+  "_cnpm_publish_time": 1482742889048,
+  "_from": "react-native-gzy-umshare@>=1.0.0 <2.0.0",
+  "_id": "react-native-gzy-umshare@1.0.1",
+  "_inCache": true,
+  "_location": "/react-native-gzy-umshare",
+  "_nodeVersion": "7.2.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/react-native-gzy-umshare-1.0.1.tgz_1482742888824_0.8612681310623884"
+  },
+  "_npmUser": {
+    "name": "gaozy124",
+    "email": "gaozy124@163.com"
+  },
+  "_npmVersion": "3.10.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-native-gzy-umshare@^1.0.0",
+    "scope": null,
+    "escapedName": "react-native-gzy-umshare",
+    "name": "react-native-gzy-umshare",
+    "rawSpec": "^1.0.0",
+    "spec": ">=1.0.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/react-native-gzy-umshare/download/react-native-gzy-umshare-1.0.1.tgz",
+  "_shasum": "5a5a2200631b9ae5dc9f4f46e9be9b6b4e0dbb27",
+  "_shrinkwrap": null,
+  "_spec": "react-native-gzy-umshare@^1.0.0",
+  "_where": "/Users/aykj/Desktop/React-Native/MyPackageTest",
+  "author": {
+    "name": "gzy"
+  },
+  "dependencies": {},
+  "description": "",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "5a5a2200631b9ae5dc9f4f46e9be9b6b4e0dbb27",
+    "size": 18576,
+    "noattachment": false,
+    "tarball": "http://registry.npm.taobao.org/react-native-gzy-umshare/download/react-native-gzy-umshare-1.0.1.tgz"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "gaozy124",
+      "email": "gaozy124@163.com"
+    }
+  ],
+  "name": "react-native-gzy-umshare",
+  "optionalDependencies": {},
+  "publish_time": 1482742889048,
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.2"
+}

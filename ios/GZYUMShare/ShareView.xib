@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ShareView">
+            <rect key="frame" x="0.0" y="0.0" width="578" height="229"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K8v-0r-Qce">
+                    <rect key="frame" x="0.0" y="0.0" width="578" height="115"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wpl-iK-dgw" customClass="GZYVerticalButton">
+                            <rect key="frame" x="0.0" y="0.0" width="193" height="115"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="微信" image="prize_icon_WeChat.png">
+                                <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="wechatShare:" destination="iN0-l3-epB" eventType="touchUpInside" id="Glj-kv-2AX"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8sN-x3-78r" customClass="GZYVerticalButton">
+                            <rect key="frame" x="193" y="0.0" width="192" height="115"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="朋友圈" image="prize_icon_WeChatpengyouquan.png">
+                                <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="timeLineShare:" destination="iN0-l3-epB" eventType="touchUpInside" id="buh-Cx-vR3"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lfd-XY-xk7" customClass="GZYVerticalButton">
+                            <rect key="frame" x="385" y="0.0" width="193" height="115"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="微博" image="prize_icon_weibo.png">
+                                <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="sinaShare:" destination="iN0-l3-epB" eventType="touchUpInside" id="kJB-gn-4gC"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="8sN-x3-78r" firstAttribute="width" secondItem="K8v-0r-Qce" secondAttribute="width" multiplier="1:3" id="2Ul-8g-7Iq"/>
+                        <constraint firstAttribute="bottom" secondItem="Lfd-XY-xk7" secondAttribute="bottom" id="5af-Pn-OCv"/>
+                        <constraint firstAttribute="bottom" secondItem="Wpl-iK-dgw" secondAttribute="bottom" id="9Fy-aK-SJM"/>
+                        <constraint firstItem="Lfd-XY-xk7" firstAttribute="top" secondItem="K8v-0r-Qce" secondAttribute="top" id="Iqw-Io-PtY"/>
+                        <constraint firstItem="Wpl-iK-dgw" firstAttribute="leading" secondItem="K8v-0r-Qce" secondAttribute="leading" id="SYm-Yb-Vn2"/>
+                        <constraint firstItem="Wpl-iK-dgw" firstAttribute="top" secondItem="K8v-0r-Qce" secondAttribute="top" id="Xdz-QV-24P"/>
+                        <constraint firstItem="8sN-x3-78r" firstAttribute="top" secondItem="K8v-0r-Qce" secondAttribute="top" id="bgk-SH-QdG"/>
+                        <constraint firstItem="Wpl-iK-dgw" firstAttribute="width" secondItem="K8v-0r-Qce" secondAttribute="width" multiplier="1:3" id="hUQ-oq-xuu"/>
+                        <constraint firstItem="Lfd-XY-xk7" firstAttribute="leading" secondItem="8sN-x3-78r" secondAttribute="trailing" id="m6t-Nm-H27"/>
+                        <constraint firstAttribute="bottom" secondItem="8sN-x3-78r" secondAttribute="bottom" id="mgT-Ji-tot"/>
+                        <constraint firstAttribute="trailing" secondItem="Lfd-XY-xk7" secondAttribute="trailing" id="qES-Cv-659"/>
+                        <constraint firstItem="8sN-x3-78r" firstAttribute="leading" secondItem="Wpl-iK-dgw" secondAttribute="trailing" id="utY-Nb-hH8"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yd7-kD-Beg">
+                    <rect key="frame" x="0.0" y="115" width="578" height="114"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HXl-sD-1HB" customClass="GZYVerticalButton">
+                            <rect key="frame" x="0.0" y="0.0" width="193" height="114"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="QQ" image="prize_icon_qq.png">
+                                <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="qqShare:" destination="iN0-l3-epB" eventType="touchUpInside" id="yeP-cX-COF"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ca2-CU-4fC" customClass="GZYVerticalButton">
+                            <rect key="frame" x="193" y="0.0" width="192" height="114"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="QQ空间" image="prize_icon_QQkongjian.png">
+                                <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="aZoneShare:" destination="iN0-l3-epB" eventType="touchUpInside" id="KaF-1t-csJ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="HXl-sD-1HB" secondAttribute="bottom" id="6gE-eB-pPA"/>
+                        <constraint firstItem="ca2-CU-4fC" firstAttribute="leading" secondItem="HXl-sD-1HB" secondAttribute="trailing" id="HxQ-e1-Qb9"/>
+                        <constraint firstItem="HXl-sD-1HB" firstAttribute="width" secondItem="yd7-kD-Beg" secondAttribute="width" multiplier="1:3" id="LmJ-u2-acd"/>
+                        <constraint firstItem="ca2-CU-4fC" firstAttribute="top" secondItem="yd7-kD-Beg" secondAttribute="top" id="R0h-lE-LFr"/>
+                        <constraint firstItem="ca2-CU-4fC" firstAttribute="width" secondItem="yd7-kD-Beg" secondAttribute="width" multiplier="1:3" id="Wrc-fa-0sE"/>
+                        <constraint firstAttribute="bottom" secondItem="ca2-CU-4fC" secondAttribute="bottom" id="gvc-dY-ZMK"/>
+                        <constraint firstItem="HXl-sD-1HB" firstAttribute="top" secondItem="yd7-kD-Beg" secondAttribute="top" id="jIy-ld-vyq"/>
+                        <constraint firstItem="HXl-sD-1HB" firstAttribute="leading" secondItem="yd7-kD-Beg" secondAttribute="leading" id="rPQ-hA-sVx"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="K8v-0r-Qce" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="1:2" id="3so-A5-IW5"/>
+                <constraint firstItem="yd7-kD-Beg" firstAttribute="top" secondItem="K8v-0r-Qce" secondAttribute="bottom" id="Fa7-mD-CyN"/>
+                <constraint firstAttribute="bottom" secondItem="yd7-kD-Beg" secondAttribute="bottom" id="LjT-0w-R82"/>
+                <constraint firstItem="K8v-0r-Qce" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="NSC-vd-kjL"/>
+                <constraint firstItem="K8v-0r-Qce" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="PFN-hn-vJN"/>
+                <constraint firstAttribute="trailing" secondItem="yd7-kD-Beg" secondAttribute="trailing" id="afP-oK-djC"/>
+                <constraint firstItem="yd7-kD-Beg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="xg5-vO-Nhj"/>
+                <constraint firstAttribute="trailing" secondItem="K8v-0r-Qce" secondAttribute="trailing" id="yAO-pr-8b0"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="qZoneBtn" destination="ca2-CU-4fC" id="mls-bZ-GIU"/>
+                <outlet property="qqBtn" destination="HXl-sD-1HB" id="DhD-aY-mEj"/>
+                <outlet property="timeLineBtn" destination="8sN-x3-78r" id="c7B-EC-bws"/>
+                <outlet property="wechatBtn" destination="Wpl-iK-dgw" id="rn0-dJ-cWT"/>
+                <outlet property="weiboBtn" destination="Lfd-XY-xk7" id="3cx-MW-1qv"/>
+            </connections>
+            <point key="canvasLocation" x="-113" y="-211.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="prize_icon_QQkongjian.png" width="40" height="40"/>
+        <image name="prize_icon_WeChat.png" width="40" height="40"/>
+        <image name="prize_icon_WeChatpengyouquan.png" width="40" height="40"/>
+        <image name="prize_icon_qq.png" width="40" height="40"/>
+        <image name="prize_icon_weibo.png" width="40" height="40"/>
+    </resources>
+</document>

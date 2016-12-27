@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF1A1DA21E10F65B0037F71C /* GZYUMShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1A1D981E10F65B0037F71C /* GZYUMShareView.m */; };
+		AF1A1DA31E10F65B0037F71C /* GZYVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1A1D9A1E10F65B0037F71C /* GZYVerticalButton.m */; };
+		AF1A1DA41E10F65B0037F71C /* RCTConvert+UMEnum.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1A1D9C1E10F65B0037F71C /* RCTConvert+UMEnum.m */; };
+		AF1A1DA51E10F65B0037F71C /* ShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1A1D9E1E10F65B0037F71C /* ShareView.m */; };
+		AF1A1DA61E10F65B0037F71C /* UMShare.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1A1DA11E10F65B0037F71C /* UMShare.m */; };
+		AF617B7C1E124CE3007E686B /* ShareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF1A1D9F1E10F65B0037F71C /* ShareView.xib */; };
+		AF617B9C1E124D7F007E686B /* prize_icon_qq@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF617B921E124D6B007E686B /* prize_icon_qq@2x.png */; };
+		AF617B9D1E124D7F007E686B /* prize_icon_qq@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF617B931E124D6B007E686B /* prize_icon_qq@3x.png */; };
+		AF617B9E1E124D7F007E686B /* prize_icon_QQkongjian@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF617B941E124D6B007E686B /* prize_icon_QQkongjian@2x.png */; };
+		AF617B9F1E124D7F007E686B /* prize_icon_QQkongjian@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF617B951E124D6B007E686B /* prize_icon_QQkongjian@3x.png */; };
+		AF617BA01E124D7F007E686B /* prize_icon_WeChat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF617B961E124D6B007E686B /* prize_icon_WeChat@2x.png */; };
+		AF617BA11E124D7F007E686B /* prize_icon_WeChat@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF617B971E124D6B007E686B /* prize_icon_WeChat@3x.png */; };
+		AF617BA21E124D7F007E686B /* prize_icon_WeChatpengyouquan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF617B981E124D6B007E686B /* prize_icon_WeChatpengyouquan@2x.png */; };
+		AF617BA31E124D7F007E686B /* prize_icon_WeChatpengyouquan@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF617B991E124D6B007E686B /* prize_icon_WeChatpengyouquan@3x.png */; };
+		AF617BA41E124D7F007E686B /* prize_icon_weibo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF617B9A1E124D6B007E686B /* prize_icon_weibo@2x.png */; };
+		AF617BA51E124D7F007E686B /* prize_icon_weibo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF617B9B1E124D6B007E686B /* prize_icon_weibo@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF617BA61E124D98007E686B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF1A1D831E10F6250037F71C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF617B751E124CC4007E686B;
+			remoteInfo = GZYUMBundle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF1A1D891E10F6250037F71C /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AF1A1D8B1E10F6250037F71C /* libGZYUMShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGZYUMShare.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF1A1D971E10F65B0037F71C /* GZYUMShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYUMShareView.h; sourceTree = "<group>"; };
+		AF1A1D981E10F65B0037F71C /* GZYUMShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYUMShareView.m; sourceTree = "<group>"; };
+		AF1A1D991E10F65B0037F71C /* GZYVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYVerticalButton.h; sourceTree = "<group>"; };
+		AF1A1D9A1E10F65B0037F71C /* GZYVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYVerticalButton.m; sourceTree = "<group>"; };
+		AF1A1D9B1E10F65B0037F71C /* RCTConvert+UMEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCTConvert+UMEnum.h"; sourceTree = "<group>"; };
+		AF1A1D9C1E10F65B0037F71C /* RCTConvert+UMEnum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+UMEnum.m"; sourceTree = "<group>"; };
+		AF1A1D9D1E10F65B0037F71C /* ShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareView.h; sourceTree = "<group>"; };
+		AF1A1D9E1E10F65B0037F71C /* ShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareView.m; sourceTree = "<group>"; };
+		AF1A1D9F1E10F65B0037F71C /* ShareView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareView.xib; sourceTree = "<group>"; };
+		AF1A1DA01E10F65B0037F71C /* UMShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMShare.h; sourceTree = "<group>"; };
+		AF1A1DA11E10F65B0037F71C /* UMShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMShare.m; sourceTree = "<group>"; };
+		AF1A1F8C1E111E6F0037F71C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AF1A1F8E1E111E7E0037F71C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		AF1A1F901E111E850037F71C /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		AF1A1F921E111E8A0037F71C /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		AF1A1F941E111E910037F71C /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		AF1A1F961E111E9D0037F71C /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		AF61793A1E120860007E686B /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "../../../../../../../../usr/lib/libc++.1.dylib"; sourceTree = "<group>"; };
+		AF61793C1E120876007E686B /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		AF61793E1E12088C007E686B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		AF617AD51E1235F2007E686B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF617AD71E1236D1007E686B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AF617B761E124CC4007E686B /* GZYUMBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GZYUMBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF617B781E124CC4007E686B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF617B921E124D6B007E686B /* prize_icon_qq@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "prize_icon_qq@2x.png"; sourceTree = "<group>"; };
+		AF617B931E124D6B007E686B /* prize_icon_qq@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "prize_icon_qq@3x.png"; sourceTree = "<group>"; };
+		AF617B941E124D6B007E686B /* prize_icon_QQkongjian@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "prize_icon_QQkongjian@2x.png"; sourceTree = "<group>"; };
+		AF617B951E124D6B007E686B /* prize_icon_QQkongjian@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "prize_icon_QQkongjian@3x.png"; sourceTree = "<group>"; };
+		AF617B961E124D6B007E686B /* prize_icon_WeChat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "prize_icon_WeChat@2x.png"; sourceTree = "<group>"; };
+		AF617B971E124D6B007E686B /* prize_icon_WeChat@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "prize_icon_WeChat@3x.png"; sourceTree = "<group>"; };
+		AF617B981E124D6B007E686B /* prize_icon_WeChatpengyouquan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "prize_icon_WeChatpengyouquan@2x.png"; sourceTree = "<group>"; };
+		AF617B991E124D6B007E686B /* prize_icon_WeChatpengyouquan@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "prize_icon_WeChatpengyouquan@3x.png"; sourceTree = "<group>"; };
+		AF617B9A1E124D6B007E686B /* prize_icon_weibo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "prize_icon_weibo@2x.png"; sourceTree = "<group>"; };
+		AF617B9B1E124D6B007E686B /* prize_icon_weibo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "prize_icon_weibo@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF1A1D881E10F6250037F71C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF617B731E124CC4007E686B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF1A1D821E10F6250037F71C = {
+			isa = PBXGroup;
+			children = (
+				AF617B911E124D6B007E686B /* Resources */,
+				AF1A1D8D1E10F6250037F71C /* GZYUMShare */,
+				AF617B771E124CC4007E686B /* GZYUMBundle */,
+				AF1A1D8C1E10F6250037F71C /* Products */,
+				AF1A1F8B1E111E6F0037F71C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AF1A1D8C1E10F6250037F71C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF1A1D8B1E10F6250037F71C /* libGZYUMShare.a */,
+				AF617B761E124CC4007E686B /* GZYUMBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF1A1D8D1E10F6250037F71C /* GZYUMShare */ = {
+			isa = PBXGroup;
+			children = (
+				AF1A1D971E10F65B0037F71C /* GZYUMShareView.h */,
+				AF1A1D981E10F65B0037F71C /* GZYUMShareView.m */,
+				AF1A1D991E10F65B0037F71C /* GZYVerticalButton.h */,
+				AF1A1D9A1E10F65B0037F71C /* GZYVerticalButton.m */,
+				AF1A1D9B1E10F65B0037F71C /* RCTConvert+UMEnum.h */,
+				AF1A1D9C1E10F65B0037F71C /* RCTConvert+UMEnum.m */,
+				AF1A1D9D1E10F65B0037F71C /* ShareView.h */,
+				AF1A1D9E1E10F65B0037F71C /* ShareView.m */,
+				AF1A1D9F1E10F65B0037F71C /* ShareView.xib */,
+				AF1A1DA01E10F65B0037F71C /* UMShare.h */,
+				AF1A1DA11E10F65B0037F71C /* UMShare.m */,
+			);
+			path = GZYUMShare;
+			sourceTree = "<group>";
+		};
+		AF1A1F8B1E111E6F0037F71C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF617AD71E1236D1007E686B /* UIKit.framework */,
+				AF617AD51E1235F2007E686B /* Foundation.framework */,
+				AF61793E1E12088C007E686B /* libsqlite3.dylib */,
+				AF61793C1E120876007E686B /* libz.1.dylib */,
+				AF61793A1E120860007E686B /* libc++.1.dylib */,
+				AF1A1F961E111E9D0037F71C /* libsqlite3.0.tbd */,
+				AF1A1F941E111E910037F71C /* libc++.1.tbd */,
+				AF1A1F921E111E8A0037F71C /* libz.1.1.3.tbd */,
+				AF1A1F901E111E850037F71C /* ImageIO.framework */,
+				AF1A1F8E1E111E7E0037F71C /* CoreTelephony.framework */,
+				AF1A1F8C1E111E6F0037F71C /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF617B771E124CC4007E686B /* GZYUMBundle */ = {
+			isa = PBXGroup;
+			children = (
+				AF617B781E124CC4007E686B /* Info.plist */,
+			);
+			path = GZYUMBundle;
+			sourceTree = "<group>";
+		};
+		AF617B911E124D6B007E686B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AF617B921E124D6B007E686B /* prize_icon_qq@2x.png */,
+				AF617B931E124D6B007E686B /* prize_icon_qq@3x.png */,
+				AF617B941E124D6B007E686B /* prize_icon_QQkongjian@2x.png */,
+				AF617B951E124D6B007E686B /* prize_icon_QQkongjian@3x.png */,
+				AF617B961E124D6B007E686B /* prize_icon_WeChat@2x.png */,
+				AF617B971E124D6B007E686B /* prize_icon_WeChat@3x.png */,
+				AF617B981E124D6B007E686B /* prize_icon_WeChatpengyouquan@2x.png */,
+				AF617B991E124D6B007E686B /* prize_icon_WeChatpengyouquan@3x.png */,
+				AF617B9A1E124D6B007E686B /* prize_icon_weibo@2x.png */,
+				AF617B9B1E124D6B007E686B /* prize_icon_weibo@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF1A1D8A1E10F6250037F71C /* GZYUMShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1A1D941E10F6250037F71C /* Build configuration list for PBXNativeTarget "GZYUMShare" */;
+			buildPhases = (
+				AF1A1D871E10F6250037F71C /* Sources */,
+				AF1A1D881E10F6250037F71C /* Frameworks */,
+				AF1A1D891E10F6250037F71C /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF617BA71E124D98007E686B /* PBXTargetDependency */,
+			);
+			name = GZYUMShare;
+			productName = GZYUMShare;
+			productReference = AF1A1D8B1E10F6250037F71C /* libGZYUMShare.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AF617B751E124CC4007E686B /* GZYUMBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF617B791E124CC4007E686B /* Build configuration list for PBXNativeTarget "GZYUMBundle" */;
+			buildPhases = (
+				AF617B721E124CC4007E686B /* Sources */,
+				AF617B731E124CC4007E686B /* Frameworks */,
+				AF617B741E124CC4007E686B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GZYUMBundle;
+			productName = GZYUMBundle;
+			productReference = AF617B761E124CC4007E686B /* GZYUMBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF1A1D831E10F6250037F71C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = aykj;
+				TargetAttributes = {
+					AF1A1D8A1E10F6250037F71C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XNNWB9XV2X;
+						ProvisioningStyle = Automatic;
+					};
+					AF617B751E124CC4007E686B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XNNWB9XV2X;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AF1A1D861E10F6250037F71C /* Build configuration list for PBXProject "GZYUMShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF1A1D821E10F6250037F71C;
+			productRefGroup = AF1A1D8C1E10F6250037F71C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF1A1D8A1E10F6250037F71C /* GZYUMShare */,
+				AF617B751E124CC4007E686B /* GZYUMBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF617B741E124CC4007E686B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF617B9C1E124D7F007E686B /* prize_icon_qq@2x.png in Resources */,
+				AF617B9D1E124D7F007E686B /* prize_icon_qq@3x.png in Resources */,
+				AF617B9E1E124D7F007E686B /* prize_icon_QQkongjian@2x.png in Resources */,
+				AF617B9F1E124D7F007E686B /* prize_icon_QQkongjian@3x.png in Resources */,
+				AF617BA01E124D7F007E686B /* prize_icon_WeChat@2x.png in Resources */,
+				AF617BA11E124D7F007E686B /* prize_icon_WeChat@3x.png in Resources */,
+				AF617BA21E124D7F007E686B /* prize_icon_WeChatpengyouquan@2x.png in Resources */,
+				AF617BA31E124D7F007E686B /* prize_icon_WeChatpengyouquan@3x.png in Resources */,
+				AF617BA41E124D7F007E686B /* prize_icon_weibo@2x.png in Resources */,
+				AF617BA51E124D7F007E686B /* prize_icon_weibo@3x.png in Resources */,
+				AF617B7C1E124CE3007E686B /* ShareView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF1A1D871E10F6250037F71C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1A1DA51E10F65B0037F71C /* ShareView.m in Sources */,
+				AF1A1DA61E10F65B0037F71C /* UMShare.m in Sources */,
+				AF1A1DA31E10F65B0037F71C /* GZYVerticalButton.m in Sources */,
+				AF1A1DA41E10F65B0037F71C /* RCTConvert+UMEnum.m in Sources */,
+				AF1A1DA21E10F65B0037F71C /* GZYUMShareView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF617B721E124CC4007E686B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF617BA71E124D98007E686B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF617B751E124CC4007E686B /* GZYUMBundle */;
+			targetProxy = AF617BA61E124D98007E686B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF1A1D921E10F6250037F71C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/React/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF1A1D931E10F6250037F71C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/React/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF1A1D951E10F6250037F71C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = XNNWB9XV2X;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/UMSocial/SocialLibraries/QQ",
+					"$(SRCROOT)/UMSocial/UMSocialSDK",
+					"$(SRCROOT)/UMSocial/UMSocialUI",
+					"$(SRCROOT)/../../../ios/UMSocial/UMSocialSDK",
+					"$(SRCROOT)/../../../ios/UMSocial/SocialLibraries/QQ",
+					"$(SRCROOT)/../../../ios/UMSocial/UMSocialUI",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../react-native/Libraries/**",
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../node_modules/react-native/Libraries/**",
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AF1A1D961E10F6250037F71C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = XNNWB9XV2X;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/UMSocial/SocialLibraries/QQ",
+					"$(SRCROOT)/UMSocial/UMSocialSDK",
+					"$(SRCROOT)/UMSocial/UMSocialUI",
+					"$(SRCROOT)/../../../ios/UMSocial/UMSocialSDK",
+					"$(SRCROOT)/../../../ios/UMSocial/SocialLibraries/QQ",
+					"$(SRCROOT)/../../../ios/UMSocial/UMSocialUI",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../react-native/Libraries/**",
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../node_modules/react-native/Libraries/**",
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AF617B7A1E124CC4007E686B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XNNWB9XV2X;
+				INFOPLIST_FILE = GZYUMBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = GZYUMBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		AF617B7B1E124CC4007E686B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XNNWB9XV2X;
+				INFOPLIST_FILE = GZYUMBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = GZYUMBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF1A1D861E10F6250037F71C /* Build configuration list for PBXProject "GZYUMShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1A1D921E10F6250037F71C /* Debug */,
+				AF1A1D931E10F6250037F71C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF1A1D941E10F6250037F71C /* Build configuration list for PBXNativeTarget "GZYUMShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1A1D951E10F6250037F71C /* Debug */,
+				AF1A1D961E10F6250037F71C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF617B791E124CC4007E686B /* Build configuration list for PBXNativeTarget "GZYUMBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF617B7A1E124CC4007E686B /* Debug */,
+				AF617B7B1E124CC4007E686B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF1A1D831E10F6250037F71C /* Project object */;
+}
